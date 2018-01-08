@@ -6,6 +6,7 @@ function BoilingVerdict(props) {
     }
     return <p>The water would not boil.</p>;
 }
+
 export  class Calculator extends React.Component {
     constructor(props) {
         super(props);
