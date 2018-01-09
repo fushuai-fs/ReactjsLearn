@@ -21,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 README-1.md
 package-lock.json
+GlobalProps.json
