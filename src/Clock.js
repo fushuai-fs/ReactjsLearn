@@ -22,7 +22,7 @@ export default class Clock extends React.Component {
     }
 
     componentWillUnmount() {
-        clearInterval(this.timerID); // 定义ID然后再删除，官方做法       不这样做会怎样？？？？
+        this.timerID && clearInterval(this.timerID); // 定义ID然后再删除，官方做法       不这样做会怎样？？？？
 
     }
 
